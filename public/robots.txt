@@ -7,7 +7,7 @@ Allow: /sitemap.xml
 Disallow: /api/
 Disallow: /*.json$
 
-Sitemap: http://localhost:3000/sitemap.xml
+Sitemap: https://ai-tools-directory-v2-t1s9.vercel.app/sitemap.xml
 
 User-agent: GPTBot
 Disallow: /

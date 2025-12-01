@@ -3,7 +3,7 @@ import toolsData from "@/lib/tools-data.json"
 import { getAllPermutationSlugs } from "@/lib/permutations-service"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "http://localhost:3000"
+  const baseUrl = "https://ai-tools-directory-v2-t1s9.vercel.app"
   const tools = toolsData.tools
 
   // Home page
