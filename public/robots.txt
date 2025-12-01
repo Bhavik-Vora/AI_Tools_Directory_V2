@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Allow: /tools/
+Allow: /permutations/
+Allow: /sitemap.xml
+
+Disallow: /api/
+Disallow: /*.json$
+
+Sitemap: http://localhost:3000/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
